@@ -31,3 +31,19 @@ body {
     text-wrap: balance;
   }
 }
+
+.star-svg{ display:inline } 
+
+@media only screen and (max-width: 500px) and (min-width : 200px) {
+ .nav {
+   visibility: hidden;
+ }
+ .app{
+    margin: 20px;
+}
+.btn{
+  
+  margin-left: 25%;
+}
+
+}
